@@ -13,18 +13,17 @@
  * in minutes.
  */
 
-const whatToDoForLunch = function (hungry, availableTime) {
+const whatToDoForLunch = function(hungry, availableTime) {
   if (!hungry) {
     console.log("Wait until you are hungry");
-  }
-  else if (hungry && availableTime < 20) {
+  } else if (hungry && availableTime < 20) {
     console.log("We don't have enough time, grab a snack and keep working");
   } else if (hungry && availableTime >= 20 && availableTime < 30) {
     console.log("You deserve a break, go cook something tasty!");
   } else {
     console.log("LHL is a intense program, you should probably reconsider taking such a long break");
   }
-}
+};
 
 
 /*
